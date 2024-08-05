@@ -1,6 +1,16 @@
 # RGBLED Class:
 
-## COLOUR_MAP: A dictionary mapping colour names to their respective RGB pin states.
+## COLOUR_MAP: 
+
+A dictionary mapping colour names to their respective RGB pin states.
+
+red, green, blue,
+
+yellow cyan magenta,
+
+white, off
+
+
 
 ### Initialization: 
 The __init__ method initializes the MCP23017 pins for the red, green, and blue LEDs and sets up predefined blink and solid methods using partial for each colour.
